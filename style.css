@@ -242,6 +242,15 @@ section#about-me{
     color: white;
 }
 
+/* SLIDER CONTAINER */
+.title-slider{
+    text-align: center;
+    font-size: 1.4em;
+    color: var(--purple);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
 #container {
     height: 50vh;
     width: 100vw;
@@ -249,7 +258,7 @@ section#about-me{
     padding: 0;
     display: grid ;
     place-items: center
-  }
+}
   
   #slider-container {
     height: 400px;
@@ -421,7 +430,7 @@ section#about-me{
         width: 100%;
     }
     .project{
-        width: 80%;
+        width: 90%;
         flex-direction: column;
     }
     .project .description{
@@ -435,13 +444,14 @@ section#about-me{
     #introduction{
         flex-direction: column;
         gap: 30px;
+        width: 99%;
     }
     #profile-pic{
         width: 65%;
     }
     
     #profile-presentation, #specializing{
-        width: 85%;
+        width: 100%;
         text-align: center;
     }
 }
