@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,7 +33,7 @@
                     <div>EXPERIENCE</div>
                     <div>SKILLS</div>
                 </div>
-
+        
                 <!-- MAIN SECTION -->
                 <div class="flex flex-col-reverse gap-4 md:gap-0 md:w-full md:flex md:flex-row md:justify-between">
                     <!-- text -->
@@ -47,18 +47,18 @@
                                 <div>Salesforce SC</div>
                                 <div>and Web Developer</div>
                             </div>
-                            <button class="md:text-2xl text-lg font-medium py-3 px-14 md:py-5 md:px-20 mt-4 box-shadow rounded border-4 border-orange-600 text-orange-500 hover:bg-orange-600 hover:text-slate-100">
+                            <a href="#projects"><button class="md:text-2xl text-lg font-medium py-3 px-14 md:py-5 md:px-20 mt-4 box-shadow rounded border-4 border-orange-600 text-orange-500 hover:bg-orange-600 hover:text-slate-100">
                                 See my projects!
-                            </button>
+                            </button></a>
                         </div>
                     </div>
-
+        
                     <!-- img -->
                     <div class="flex-1 flex items-center justify-end md:w-80 w-60">
                         <img src="./../images/dev-illustration-undraw.svg" alt="">
                     </div>
                 </div>
-
+        
                 <div class="md:self-end flex gap-3 justify-center relative bottom-4 md:bottom-8">
                     <a href="https://github.com/biavidalf" target="_blank" class="cursor-pointer"><img class="" src="./../images/github.svg" alt=""></a>
                     <a href="https://www.instagram.com/bvidalf/" target="_blank" class="cursor-pointer"><img class="" src="./../images/instagram.svg" alt=""></a>
@@ -66,5 +66,92 @@
                 </div>
             </div>
         </header>
+
+        <!-- PROJECTS -->
+        <div id="projects" class="min-h-screen w-full bg-[#11151C] flex flex-col items-center justify-center gap-8 text-slate-100 py-10">
+            <div class="flex flex-col items-center justify-start">
+                <div class="text-violet-500 font-semibold">PORTFOLIO</div>
+                <div class="text-3xl">My Favorite Projects</div>
+            </div>
+
+            <!-- Cards -->
+            <div class="w-full flex flex-wrap p-6 gap-6 flex-row justify-center items-center max-w-6xl sm:gap-10">
+                <!-- Card -->
+                <div class="flex flex-col bg-[#1B1F25] w-[321px] gap-4 pb-6 box-shadow">
+                    <!-- Card img -->
+                    <img src="./../images/bbcs.png" alt="">
+                    
+                    <!-- Card section text + icons -->
+                    <div class="flex justify-between mx-6">
+                        <!-- Card text -->
+                        <div class="pr-4">
+                            <div class="font-semibold text-lg">BRING BACK COFFEE SHOP</div>
+                            <div class="text-[0.93rem]">E-commerce for a Vintage Cafeteria, you can log in and put the items of your choice in your cart!</div>
+                        </div>
+                        
+                        <!-- Card icons -->
+                        <div class="flex flex-col gap-2">
+                            <img src="./../images/python.svg" alt="">
+                            <img src="./../images/sqlite.svg" alt="">
+                            <img src="./../images/bootstrap.svg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Button -->
+                    <button class="bg-violet-600 font-medium text-lg px-6 py-2 mx-6 w-40 rounded">Github</button>
+                </div>
+
+                <!-- Card -->
+                <div class="flex flex-col bg-[#1B1F25] w-[321px] gap-4 pb-6 box-shadow">
+                    <!-- Card img -->
+                    <img src="./../images/bbcs.png" alt="">
+                    
+                    <!-- Card section text + icons -->
+                    <div class="flex justify-between mx-6">
+                        <!-- Card text -->
+                        <div class="pr-4">
+                            <div class="font-semibold text-lg">BRING BACK COFFEE SHOP</div>
+                            <div class="text-[0.93rem]">E-commerce for a Vintage Cafeteria, you can log in and put the items of your choice in your cart!</div>
+                        </div>
+                        
+                        <!-- Card icons -->
+                        <div class="flex flex-col gap-2">
+                            <img src="./../images/python.svg" alt="">
+                            <img src="./../images/sqlite.svg" alt="">
+                            <img src="./../images/bootstrap.svg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Button -->
+                    <button class="bg-violet-600 font-medium text-lg px-6 py-2 mx-6 w-40 rounded">Github</button>
+                </div>
+
+                <!-- Card -->
+                <div class="flex flex-col bg-[#1B1F25] w-[321px] gap-4 pb-6 box-shadow">
+                    <!-- Card img -->
+                    <img src="./../images/bbcs.png" alt="">
+                    
+                    <!-- Card section text + icons -->
+                    <div class="flex justify-between mx-6">
+                        <!-- Card text -->
+                        <div class="pr-4">
+                            <div class="font-semibold text-lg">BRING BACK COFFEE SHOP</div>
+                            <div class="text-[0.93rem]">E-commerce for a Vintage Cafeteria, you can log in and put the items of your choice in your cart!</div>
+                        </div>
+                        
+                        <!-- Card icons -->
+                        <div class="flex flex-col gap-2">
+                            <img src="./../images/python.svg" alt="">
+                            <img src="./../images/sqlite.svg" alt="">
+                            <img src="./../images/bootstrap.svg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Button -->
+                    <button class="bg-violet-600 font-medium text-lg px-6 py-2 mx-6 w-40 rounded">Github</button>
+                </div>
+
+            </div>
+        </div>
     </body>
 </html>
