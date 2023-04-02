@@ -16,3 +16,12 @@
 .tecnologie{
     @apply bg-[#374366] rounded py-3 px-12;
 }
+.skill{
+    @apply bg-[#374366] rounded py-4 px-6 drop-shadow-md;
+}
+.blob {
+  @apply bg-slate-100 rounded-full;
+  width: 10px;
+  height: 10px;
+  margin: 3em 15em;
+}
