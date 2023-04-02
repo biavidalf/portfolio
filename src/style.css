@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-chakra{
+    font-family: 'Chakra Petch';
+}
+
+.gradient{
+    background-image: linear-gradient(72.48deg, #051937 0%, #363A7F 74.52%, #856FF5 102.41%);
+}
+
+.box-shadow{
+    box-shadow: rgba(0, 0, 0, 0.2) 5px 15px 10px;
+}
+.tecnologie{
+    @apply bg-[#374366] rounded py-3 px-12;
+}
