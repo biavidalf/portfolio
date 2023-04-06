@@ -14,7 +14,7 @@
     box-shadow: rgba(0, 0, 0, 0.2) 5px 15px 10px;
 }
 .tecnologie{
-    @apply bg-[#374366] rounded py-3 px-12;
+    @apply bg-[#374366] rounded py-3 px-8 text-center;
 }
 .skill{
     @apply bg-[#374366] rounded py-4 px-6 drop-shadow-md;
